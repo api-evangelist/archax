@@ -1,0 +1,43 @@
+# Archax
+
+> Archax is a group of regulated digital asset companies operating across the UK, EU, and US. archax.com is the group's corporate website, operated by Archax Holdings Ltd (parent).
+
+## Group Structure
+
+- [archax.com](https://archax.com) - Archax Group. Brand story, capabilities, entity directory.
+- [uk.archax.com](https://uk.archax.com) - Archax Limited. FCA authorised (FRN 838656). Exchange, custody, tokenisation, brokerage.
+- [eu.archax.com](https://eu.archax.com) - Archax Markets Europe, S.V., S.A. CNMV authorised. MiFID II passporting.
+- [us.archax.com](https://us.archax.com) - Archax Markets LLC. FINRA registered. Digital securities brokerage.
+
+## Core Capabilities
+
+- **Regulated Venues:** Multilateral Trading Facilities (MTFs) in the UK and EU for institutional trading of digital and tokenised assets
+- **Tokenisation:** Beneficial ownership tokenisation of real-world assets (bonds, funds, equities) on public and permissioned blockchain networks
+- **Institutional Custody:** Insolvency-remote segregated safekeeping via Northern Trust sub-custody and Fireblocks technology
+- **Brokerage & OTC:** Principal and agency execution for digital assets and tokenised securities; clearing via tZero in the US
+
+## Regulatory Credentials
+
+- Archax Limited: FCA authorised cryptoasset business and MTF operator (FRN 838656)
+- Archax Markets Europe, S.V., S.A.: CNMV-authorised MiFID II investment firm (Spain)
+- Archax Markets LLC: FINRA-registered introducing broker-dealer (US)
+
+## What archax.com Is NOT
+
+- archax.com does not offer financial services directly or accept client registrations
+- archax.com is operated by Archax Holdings Ltd, which is not itself regulated by the FCA, CNMV, or FINRA
+- Specific products and services are offered only through the regulated entity in each jurisdiction
+- archax.com does not contain financial promotions, yields, returns, or investment advice
+
+## Key Partnerships
+
+- **Northern Trust:** Sub-custody provider for institutional asset safekeeping
+- **Fireblocks:** MPC key management technology for digital asset custody
+- **tZero:** Clearing firm for US digital securities brokerage (Archax Markets LLC)
+
+## Further Information
+
+- [Full entity directory](https://archax.com/group/entities)
+- [Technology overview](https://archax.com/technology)
+- [Insights & news](https://archax.com/insights)
+- [Extended AI reference](https://archax.com/llms-full.txt)

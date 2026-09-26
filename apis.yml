@@ -1,23 +1,62 @@
 aid: archax
+
 name: Archax
-description: 'Archax is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: 'Archax builds regulated infrastructure for tokenising, trading, and safekeeping real-world assets. Authorized across the UK and EU, Archax provides a secure, compliant platform for digital asset markets, offering institutional-grade solutions for asset tokenisation, secondary market trading, and custodial services, enabling investors to access tokenised real-world assets with confidence and regulatory oversight.'
+
 url: https://raw.githubusercontent.com/api-evangelist/archax/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-25 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-25'
+
 modified: '2026-09-25'
+
 tags:
-- Company
-apis: []
+- FinTech
+- Digital Assets
+- Tokenisation
+- Trading Platform
+- Regulated
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: LLMsTxt
+  url: llms/archax-llms.txt
+- type: Hosts
+  url: hosts/archax-hosts.yml
+- type: Vendors
+  url: vendors/archax-vendors.yml
+- type: DomainSecurity
+  url: security/archax-domain-security.yml
 - type: Website
-  url: https://equityzen.com/company/archax
+  url: https://archax.com
+
+apis: []
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: "Archax website returns a JavaScript shell with no machine‑readable API documentation."
+  evidence:
+    - url: https://archax.com
+      status: 200
+  checked: 2026-09-25
+x-enrichment:
+  date: '2026-09-25'
+  status: enriched
+  artifacts_added: 7
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local
