@@ -1,0 +1,60 @@
+edges:
+- partner_name: ISO 10383 (MIC)
+  partner: null
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.iso20022.org/sites/default/files/ISO10383_MIC/ISO10383_MIC.csv
+  source: mic
+  category: registered trading venues and market segments
+  contract_reference:
+    register: ISO 10383 Market Identifier Codes (ISO 20022 registration authority)
+    spec_file: null
+    standard: ISO 10383
+    role: venue operator
+    matched_domain: archax.com
+    matched_by: domain:archax.com
+    categories:
+    - ATSS
+    - MLTF
+    operating_mics:
+    - ARCE
+    - ARCH
+    mics:
+    - mic: ARCH
+      operating_mic: ARCH
+      segment: OPRT
+      market: ARCHAX
+      category: MLTF
+      legal_name: ARCHAX LTD
+      country: GB
+    - mic: ARDA
+      operating_mic: ARCH
+      segment: SGMT
+      market: ARCHAX - DIGITAL ASSETS
+      category: ATSS
+      legal_name: ARCHAX LTD
+      country: GB
+    - mic: ARCE
+      operating_mic: ARCE
+      segment: OPRT
+      market: ARCHAX EUROPE - MTF (MADRID)
+      category: MLTF
+      legal_name: ARCHAX MARKETS EUROPE, S.V., S.A.
+      country: ES
+    - mic: ARCB
+      operating_mic: ARCE
+      segment: SGMT
+      market: ARCHAX EUROPE - BONDS
+      category: MLTF
+      legal_name: ARCHAX MARKETS EUROPE, S.V., S.A.
+      country: ES
+    detected_by: sweep-capital-markets.py
+    detected: '2026-10-15'
+  detected_by: sweep-capital-markets.py
+  first_seen: '2026-10-15'
+generated: '2026-10-15'
+method: searched
+checked:
+- https://www.iso20022.org/sites/default/files/ISO10383_MIC/ISO10383_MIC.csv
